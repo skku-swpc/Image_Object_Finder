@@ -18,7 +18,7 @@ class FileDescException extends Exception {
 }
 
 @SuppressWarnings("unchecked")
-public class BuildingFinder {
+public class ImageObjectFinder {
 	public enum executionType {
 		TRAIN_ONLY (0, "train_only"),
 		EVAL_ONLY (1, "evaluation_only"),
@@ -75,11 +75,11 @@ public class BuildingFinder {
 		return ret;
 	}
 
-	public BuildingFinder (executionType type) {
+	public ImageObjectFinder (executionType type) {
 		this.type = type;
 	}
 
-	public BuildingFinder () {
+	public ImageObjectFinder () {
 		this (executionType.NONE);
 	}
 
