@@ -1,5 +1,5 @@
-# Building Finder
-Find building using tensorflow
+# Image Object Finder
+Classify the main object image
 
 ## Requirements
 * [Tensorflow] (http://tensorflow.org/)
